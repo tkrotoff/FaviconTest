@@ -1,0 +1,21 @@
+{
+  "name": "FaviconTest",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tkrotoff/FaviconTest.git"
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-connect": "latest"
+  },
+
+  "scripts": {
+    "gulp": "gulp"
+  },
+
+  "engines": {
+    "node": ">=0.10"
+  }
+}
