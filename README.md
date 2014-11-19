@@ -37,7 +37,7 @@ Increment the number whenever you change the icons otherwise you will have false
 ### Chrome
 
 - OS X/Chrome 38: ico-16.png (tab + bookmark)
-- Android 4.4.4/Chrome 39: 192.png (tab + bookmark), background-152.png rounded (manifest.json) (homescreen),
+- Android 4.4.4/Chrome 39: 192.png (tab + bookmark), background-152.png rounded (manifest.json) (homescreen)
 
 ### Firefox
 
@@ -49,6 +49,8 @@ Increment the number whenever you change the icons otherwise you will have false
 - WinXP/IE6: ico-16.png (favorites)
 - Win7/IE9: ico-16.png (tab + address + favorites)
 - Win7/IE11: 16.png (tab + address + favorites)
+- Win8.1/IE11 desktop: 16.png (tab + address + favorites)
+- Win8.1/IE11 modern UI/Metro: 16.png (tab + address), 144.png (favorites + start screen)
 
 ### Safari
 
@@ -66,3 +68,15 @@ Increment the number whenever you change the icons otherwise you will have false
 - No need for `<link rel="icon" href="*.png">`, `<link rel="shortcut icon" href=".ico">` is enough
 - iOS: 152x152 apple-touch-icon (iOS), will be rounded by iOS
 - Android: manifest.json 192x192 PNG with background, will be rounded by Android/Chrome
+- Windows 8 modern UI/Metro: msapplication-TileImage (+ msapplication-TileColor if the tile image does not have a background)
+
+```HTML
+<link rel="manifest" href="manifest.json?v=1">
+
+<link rel="shortcut icon" href="16-32-48.ico?v=1">
+
+<link rel="apple-touch-icon" sizes="152x152" href="background-152.png?v=1">
+
+<meta name="msapplication-TileImage" content="144.png?v=1">
+<meta name="msapplication-TileColor" content="...">
+```
