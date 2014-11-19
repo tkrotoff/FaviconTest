@@ -49,6 +49,7 @@ Increment the number whenever you change the icons otherwise you will have false
 - WinXP/IE6: ico-16.png (favorites)
 - Win7/IE9: ico-16.png (tab + address + favorites)
 - Win7/IE11: 16.png (tab + address + favorites)
+- WinPhone 7.5/IE9: web site screenshot for the start screen, no tab nor favorite icon displayed
 - Win8.1/IE11 desktop: 16.png (tab + address + favorites)
 - Win8.1/IE11 modern UI/Metro: 16.png (tab + address), 144.png (favorites + start screen)
 
