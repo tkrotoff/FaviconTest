@@ -1,6 +1,6 @@
 # FaviconTest
 
-A simple index.html to experiment with favicon and check the results using different browsers.
+A simple [HTML page](index.html) to experiment with favicon and check the results using different browsers.
 
 Resources:
 
