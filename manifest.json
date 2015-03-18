@@ -2,12 +2,12 @@
   "name": "FaviconTest",
   "icons": [
     {
-      "src": "icons/background-152.png",
+      "src": "icons/152-background.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "icons/background-192.png",
+      "src": "icons/192-background.png",
       "sizes": "192x192",
       "type": "image/png"
     }
