@@ -2,6 +2,8 @@
 
 A simple [HTML page](index.html) to experiment with favicon and check the results using different browsers.
 
+Obsolete: use https://realfavicongenerator.net/
+
 Resources:
 
 - https://github.com/audreyr/favicon-cheat-sheet
